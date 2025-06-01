@@ -71,7 +71,7 @@ const Step1 = () => {
                 ))}
             </div>
             <h2 className="text-lg sm:text-xl md:text-2xl font-normal font-poppins text-left w-full mb-4 sm:mb-6">Get new e-PAN</h2>
-            <div className="bg-white rounded-3xl p-4 sm:p-6 w-full max-w-lg">
+            <div className="bg-white rounded-3xl p-4 sm:p-6 w-full ">
                 <div className="flex flex-col gap-4">
                     <p className="text-sm sm:text-base font-medium">
                         <b>Remember:</b> This is an Aadhaar e-KYC based process and allotment of PAN is free of cost. A PDF file of PAN will be generated and issued to the applicant. Help?
@@ -86,7 +86,7 @@ const Step1 = () => {
                         value={aadharNumber}
                         onChange={handleInputChange}
                         placeholder="Aadhaar number"
-                        className="w-full px-4 py-2 rounded-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-indigo-500 text-sm sm:text-base"
+                        className="w-40 px-4 py-2 rounded-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-indigo-500 text-sm sm:text-base"
                     />
                     {message && (
                         <p className="text-sm" style={{ color: message === 'Aadhaar number is valid.' ? 'green' : 'red' }}>
@@ -112,12 +112,12 @@ const Step1 = () => {
                     </ul>
                 </div>
             </div>
-            <div className="flex flex-col sm:flex-row justify-between mt-6 w-full max-w-lg gap-4 sm:gap-0">
-                <button className="text-indigo-600 border border-black px-4 py-2 rounded-md text-sm sm:text-base font-medium w-full sm:w-40">
+            <div className="flex flex-col sm:flex-row justify-between mt-6 w-full  gap-4 sm:gap-0">
+                <button className="text-indigo-600 border border-black px-4 py-2 rounded-md text-sm sm:text-base font-medium  sm:w-40">
                     Cancel
                 </button>
                 <button
-                    className={`border px-4 py-2 rounded-md text-sm sm:text-base font-medium w-full sm:w-40 ${next ? 'text-indigo-600 border-black' : 'text-gray-300 border-gray-400'}`}
+                    className={`border px-4 py-2 rounded-md text-sm sm:text-base font-medium  sm:w-40 ${next ? 'text-indigo-600 border-black' : 'text-gray-300 border-gray-400'}`}
                     type="submit"
                     onClick={handleNext}
                 >

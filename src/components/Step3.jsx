@@ -240,7 +240,7 @@ const handleNext = () => {
                     }`}
                     type="submit"
                     disabled={!isChecked || !isOtpComplete}
-                    onClick={handleNexts}
+                    onClick={handleNext}
                 >
                     Continue
                 </button>
