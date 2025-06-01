@@ -13,7 +13,7 @@ const Step4 = () => {
 
     return (
         <div className='min-w-[80%] font-poppins'>
-                 <div class="flex items-center max-w-screen-lg mx-auto mb-[60px]">
+                 <div class="flex items-center max-w-screen-lg mx-auto mb-[4s0px]">
     <div class="w-full">
         <div class="flex items-center w-full">
         <div class="w-7 h-7 shrink-0 mx-[-1px] bg-indigo-500 flex items-center justify-center rounded-full">
@@ -70,7 +70,7 @@ PAN Details</h6>
     </div> 
            <div className='pb-10 font-medium text-base text-left w-full'>Your personal data based on Aadhaar e-KYC</div>
             <div className='bg-white '>
-                <div className='w-[100%] flex border-b-4 border-[#ebebea] py-4 px-4'>
+                <div className='w-[100%] flex border-b-4 border-[#ebebea] py-2 px-2'>
                     <div className='w-[50%] flex font-medium text-base items-center'>
                         Photo
                     </div>
@@ -79,7 +79,7 @@ PAN Details</h6>
                         </div>
                     </div>
                 </div>
-                <div className='w-[100%] flex border-b-4 border-[#ebebea] py-4 px-4'>
+                <div className='w-[100%] flex border-b-4 border-[#ebebea] py-2 px-2'>
                     <div className='w-[50%] flex font-medium text-base items-center'>
                         Aadhar Number
                     </div>
@@ -87,7 +87,7 @@ PAN Details</h6>
                         xxxx xxxx x545
                     </div>
                 </div>
-                <div className='w-[100%] flex border-b-4 border-[#ebebea] py-4 px-4'>
+                <div className='w-[100%] flex border-b-4 border-[#ebebea] py-2 px-2'>
                     <div className='w-[50%] flex items-center font-medium text-base'>
                         Name
                     </div>
@@ -95,7 +95,7 @@ PAN Details</h6>
                         xxx
                     </div>
                 </div>
-                <div className='w-[100%] flex border-b-4 border-[#ebebea] py-4 px-4'>
+                <div className='w-[100%] flex border-b-4 border-[#ebebea] py-2 px-2'>
                     <div className='w-[50%] flex items-center font-medium text-base'>
                         Date of birth
                     </div>

@@ -117,7 +117,7 @@ const Step3 = () => {
 
     return (
         <div>
-              <div class="flex items-center max-w-screen-lg mx-auto mb-[60px]">
+              <div class="flex items-center max-w-screen-lg mx-auto mb-[40px]">
     <div class="w-full">
         <div class="flex items-center w-full">
         <div class="w-7 h-7 shrink-0 mx-[-1px] bg-indigo-500 flex items-center justify-center rounded-full">

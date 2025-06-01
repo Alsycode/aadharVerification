@@ -58,7 +58,7 @@ navigate("/otpVerification")
 console.log("formData",formData)
   return (
     <div>
-        <div class="flex items-center max-w-screen-lg mx-auto">
+        <div class="flex items-center max-w-screen-lg mx-auto mb-[40px]">
      <div class="w-full">
       
         <div class="flex items-center w-full">
