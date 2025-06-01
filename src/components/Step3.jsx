@@ -229,7 +229,7 @@ const handleNext = () => {
                 </span>
             </div>
             <div className="flex flex-col sm:flex-row justify-between mt-6 w-full  gap-4 sm:gap-0">
-                <button className="text-indigo-600 border border-black px-4 py-2 rounded-md text-sm sm:text-base font-medium  sm:w-40">
+                <button className="text-indigo-600 border border-black px-4 py-2 rounded-md text-sm sm:text-base font-medium  sm:w-40" onClick={()=>navigate("/otpVerification")}>
                     Cancel
                 </button>
                 <button
