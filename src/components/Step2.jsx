@@ -28,7 +28,7 @@ const Step2 = () => {
         </div>
         <div class="w-full h-[3px] bg-indigo-500"></div>
       </div>
-        <h6 class="text-sm font-semibold text-black mb-2 mr-4">Enter Aadhaar
+        <h6 class="text-bases font-semibold text-black mb-2 mr-4">Enter Aadhaar
 Number</h6>
     </div>
     
@@ -68,22 +68,22 @@ PAN Details</h6>
     </div>
       
     </div>  
-         <div className='pb-10 text-left font-normal text-[20px]  w-full'>OTP Validation</div>
+         <div className='pb-10 text-left font-normal text-base  w-full'>OTP Validation</div>
 
   <div className=' bg-white    rounded-[30px] p-[23px]'>
           
         <div className=' flex flex-col  font-semibold  gap-[10px]'>
-<p className='mb-[15px] font-medium text-[20px]'>Request for generating OTP by SMS to your Aadhar Linked mobile number will be sent UIDAI - Please read teh terms and provide consent</p>
+<p className='mb-[15px] font-medium text-base'>Request for generating OTP by SMS to your Aadhar Linked mobile number will be sent UIDAI - Please read teh terms and provide consent</p>
 
          
          <div className='flex flex-col gap-4 items-center  rounded-lg border-[#ebebea] border-[4px] p-[10px] '>
             <div className='pb-4'>
-                <p className='font-medium text-[20px]'>Consent Declaration for Generation of new PAN based on Aadhaar e-KYC details:</p>
-                <p className='font-normal text-[20px]'><span className='mr-1'>1.</span>I have understood the process of authentication described herein and hereby grant consent for use of my Aadhaar identity information (through Aadhaar based e-KYC authentication facility of
+                <p className='font-medium text-base'>Consent Declaration for Generation of new PAN based on Aadhaar e-KYC details:</p>
+                <p className='font-normal text-base'><span className='mr-1'>1.</span>I have understood the process of authentication described herein and hereby grant consent for use of my Aadhaar identity information (through Aadhaar based e-KYC authentication facility of
 UIDAI) for puropses of authentication of my identity in accordance with the provisions of the Aadhaar (Targeted Delivery of Financial and other Subsidies, Benefits and Services) Act, 2016 and allied rules and regulations notified there under, and for purposes of verifying and validating my credentials as maintained by the Income Tax Department.</p>
             </div>
             <div className='flex items-center flex-start w-full'>
-<input type='checkbox' onChange={handleChange} className='mr-1 w-[20px] h-[20px]'/><span className='text-[20px] font-normal'>I have read the consent terms and agree to proceed further</span>
+<input type='checkbox' onChange={handleChange} className='mr-1 w-[20px] h-[20px]'/><span className='text-base font-normal'>I have read the consent terms and agree to proceed further</span>
             </div>
 
 
@@ -93,11 +93,11 @@ UIDAI) for puropses of authentication of my identity in accordance with the prov
         </div>
         </div>
    <div className="flex justify-between mt-10 w-full">
-         <button className="text-[#1c1b94] border font-medium text-[20px] border-black px-4 py-2 w-[156px] rounded-md">
+         <button className="text-[#1c1b94] border font-medium text-base border-black px-4 py-2 w-[156px] rounded-md">
                     Cancel
                 </button>
         <button
-          className={`border font-medium text-[20px] w-[156px] border-black px-4 py-2 rounded-md ${
+          className={`border font-medium text-base w-[156px] border-black px-4 py-2 rounded-md ${
             isChecked ? "text-[#1c1b94]" : "text-gray-300 border-gray-400 cursor-not-allowed"
           }`}
           type="button"

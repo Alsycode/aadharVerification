@@ -171,16 +171,16 @@ PAN Details</h6>
     </div>
       
     </div> 
-            <div className='pb-10 font-medium text-[20px] text-left w-full'>OTP Validation</div>
+            <div className='pb-10 font-medium text-base text-left w-full'>OTP Validation</div>
             <div className='bg-white rounded-[30px] p-[20px]'>
                 <div className='flex flex-col font-semibold gap-[10px]'>
                     <div className='flex flex-col gap-4 rounded-lg p-[10px]'>
                         <div className='pb-4'>
-                            <p className='font-medium text-[20px]'>Check your phone</p>
-                            <p className='font-normal text-[20px]'>We have sent a One Time Password (OTP) in a text message (SMS) to your Primary mobile number +91 23********71 and primary email id avinash12345@nergymail.com</p>
+                            <p className='font-medium text-base'>Check your phone</p>
+                            <p className='font-normal text-base'>We have sent a One Time Password (OTP) in a text message (SMS) to your Primary mobile number +91 23********71 and primary email id avinash12345@nergymail.com</p>
                         </div>
                         <div className=''>
-                            <p className='font-normal text-[20px]'>Enter the OTP <span className='text-red-500'>*</span></p>
+                            <p className='font-normal text-base'>Enter the OTP <span className='text-red-500'>*</span></p>
                             <section className="bg-white py-10 dark:bg-dark">
                                 <div className="container">
                                     <form id="otp-form" className="flex gap-2">
@@ -201,11 +201,11 @@ PAN Details</h6>
                                     </form>
                                 </div>
                             </section>
-                            <p className='font-medium text-[20px]'>OTP expires in {minutes}.{seconds} min</p>
+                            <p className='font-medium text-base'>OTP expires in {minutes}.{seconds} min</p>
                         </div>
                         <div className='flex items-center flex-start gap-2'>
                             <button
-                                className={`border font-normal text-[20px] w-40 border-black px-4 py-2 rounded-md ${
+                                className={`border font-normal text-base w-40 border-black px-4 py-2 rounded-md ${
                                     isTimerRunning ? "text-gray-300 border-gray-400" : "text-[#1c1b94]"
                                 }`}
                                 onClick={resetOtp}
@@ -224,14 +224,14 @@ PAN Details</h6>
                     checked={isChecked}
                     onChange={handleCheckboxChange}
                 />
-                <span className='ml-[25px] font-normal text-[22px]'>I agree to validate my Aadhaar details with UIDAI. After successful validation of OTP entered by you, the request for e-KYC Aadhaar data will be fetched from UIDAI</span>
+                <span className='ml-[25px] font-normal text-base'>I agree to validate my Aadhaar details with UIDAI. After successful validation of OTP entered by you, the request for e-KYC Aadhaar data will be fetched from UIDAI</span>
             </div>
             <div className="flex justify-between mt-10 w-full">
-                <button className="text-[#1c1b94] border font-medium text-[20px] border-black px-4 py-2 w-[156px] rounded-md">
+                <button className="text-[#1c1b94] border font-medium text-base border-black px-4 py-2 w-[156px] rounded-md">
                     Cancel
                 </button>
                 <button
-                    className={`border font-medium text-[20px] w-[156px] border-black px-4 py-2 rounded-md ${
+                    className={`border font-medium text-base w-[156px] border-black px-4 py-2 rounded-md ${
                         isChecked && isOtpComplete ? "text-[#1c1b94]" : "text-gray-300 border-gray-400 cursor-not-allowed"
                     }`}
                     type="submit"

@@ -68,10 +68,10 @@ PAN Details</h6>
     </div>
       
     </div> 
-           <div className='pb-10 font-medium text-[20px] text-left w-full'>Your personal data based on Aadhaar e-KYC</div>
+           <div className='pb-10 font-medium text-base text-left w-full'>Your personal data based on Aadhaar e-KYC</div>
             <div className='bg-white '>
                 <div className='w-[100%] flex border-b-4 border-[#ebebea] py-4 px-4'>
-                    <div className='w-[50%] flex font-medium text-[22px] items-center'>
+                    <div className='w-[50%] flex font-medium text-base items-center'>
                         Photo
                     </div>
                     <div className='w-[50%]'>
@@ -80,26 +80,26 @@ PAN Details</h6>
                     </div>
                 </div>
                 <div className='w-[100%] flex border-b-4 border-[#ebebea] py-4 px-4'>
-                    <div className='w-[50%] flex font-medium text-[22px] items-center'>
+                    <div className='w-[50%] flex font-medium text-base items-center'>
                         Aadhar Number
                     </div>
-                    <div className='w-[50%] font-medium text-[22px]'>
+                    <div className='w-[50%] font-medium text-base'>
                         xxxx xxxx x545
                     </div>
                 </div>
                 <div className='w-[100%] flex border-b-4 border-[#ebebea] py-4 px-4'>
-                    <div className='w-[50%] flex items-center font-medium text-[22px]'>
+                    <div className='w-[50%] flex items-center font-medium text-base'>
                         Name
                     </div>
-                    <div className='w-[50%] font-medium text-[22px]'>
+                    <div className='w-[50%] font-medium text-base'>
                         xxx
                     </div>
                 </div>
                 <div className='w-[100%] flex border-b-4 border-[#ebebea] py-4 px-4'>
-                    <div className='w-[50%] flex items-center font-medium text-[22px]'>
+                    <div className='w-[50%] flex items-center font-medium text-base'>
                         Date of birth
                     </div>
-                    <div className='w-[50%] font-medium text-[22px]'>
+                    <div className='w-[50%] font-medium text-base'>
                         xxx
                     </div>
                 </div>
@@ -111,11 +111,11 @@ PAN Details</h6>
                     checked={isChecked}
                     onChange={handleCheckboxChange}
                 />
-                <div><span className='ml-[25px] font-normal text-[20px]'>I accept that</span>
+                <div><span className='ml-[25px] font-normal text-base'>I accept that</span>
                 <span className='text-red-500'> *</span></div>
                 
             </div>
-            <div className='mt-[20px] font-normal text-[20px]'>
+            <div className='mt-[20px] font-normal text-base'>
                 <ul>
                     <li className='flex'>
                         <div>1.</div>
@@ -133,11 +133,11 @@ PAN Details</h6>
                 </ul>
             </div>
             <div className="flex justify-between mt-10 w-full">
-                <button className="text-[#1c1b94] border text-[20px] font-medium border-black px-4 py-2 w-[156px] rounded-md">
+                <button className="text-[#1c1b94] border text-base font-medium border-black px-4 py-2 w-[156px] rounded-md">
                     Cancel
                 </button>
                 <button
-                    className={`border font-medium text-[20px] w-[156px]  border-black px-4 py-2 rounded-md ${
+                    className={`border font-medium text-base w-[156px]  border-black px-4 py-2 rounded-md ${
                         isChecked ? "text-[#1c1b94]" : "text-gray-300 border-gray-400 cursor-not-allowed"
                     }`}
                     type="submit"
