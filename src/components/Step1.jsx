@@ -112,12 +112,12 @@ PAN Details</h6>
      
       <div className=" bg-white     rounded-[30px] p-[26px]">
         <div className=" flex flex-col   gap-[10px]">
-          <p className="pb-[43px] font-medium  text-[24px] ">
+          <p className="pb-[43px] font-medium  text-base ">
             <b>Remember:</b>Its and Adhar e-KYC base process and
             allotment of PAN is free of cost.A pdf file of PAN will be generated
             and issued to the applicant.help?
           </p>
-          <p className="font-medium  text-[24px] text-start ">
+          <p className="font-medium  text-base text-start ">
             Enter your 12 didgit Adadhar Number for PAN allotment
             <span className="text-red-500">*</span>
           </p>
@@ -139,11 +139,11 @@ className="w-40 px-4 py-2 rounded-md border"
         onChange={checkHandler}
            className="w-[20px] h-[20px]"
             />
-            <span className="font-normal  text-[24px]">
+            <span className="font-normal  text-base">
               I confirm that <span className="text-red-500">*</span>
             </span>
           </div>
-          <ul className="font-normal text-[24px]">
+          <ul className="font-normal text-base">
             <li>1. I have never been alloted a permanent account number</li>
             <li>2. My active mobile number is linked with aadhar.</li>
             <li>
@@ -158,11 +158,11 @@ className="w-40 px-4 py-2 rounded-md border"
         </div>
       </div>
       <div className="flex justify-between mt-10 w-full">
-        <button className="text-[#1c1b94] border font-medium  text-[24px] border-black px-4 py-2 w-[156px] rounded-md">
+        <button className="text-[#1c1b94] border font-medium  text-base border-black px-4 py-2 w-[156px] rounded-md">
           Cancel
         </button>
         <button
-          className={` border font-medium  text-[24px] w-[156px] border-black px-4 py-2  rounded-md ${
+          className={` border font-medium  text-base w-[156px] border-black px-4 py-2  rounded-md ${
             next ? "text-[#1c1b94] " : "text-gray-300 border-gray-400 "
           }`}
           type="submit"
