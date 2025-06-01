@@ -13,7 +13,62 @@ const Step4 = () => {
 
     return (
         <div className='min-w-[80%] font-poppins'>
-            <p className='pb-[20px] font-normal text-[22px]'>Your personal data based on Aadhaar e-KYC</p>
+                 <div class="flex items-center max-w-screen-lg mx-auto mb-[60px]">
+    <div class="w-full">
+        <div class="flex items-center w-full">
+        <div class="w-7 h-7 shrink-0 mx-[-1px] bg-indigo-500 flex items-center justify-center rounded-full">
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 fill-white" viewBox="0 0 24 24">
+            <path
+              d="M9.707 19.121a.997.997 0 0 1-1.414 0l-5.646-5.647a1.5 1.5 0 0 1 0-2.121l.707-.707a1.5 1.5 0 0 1 2.121 0L9 14.171l9.525-9.525a1.5 1.5 0 0 1 2.121 0l.707.707a1.5 1.5 0 0 1 0 2.121z"
+              data-original="#000000" />
+          </svg>
+        </div>
+        <div class="w-full h-[3px] bg-indigo-500"></div>
+      </div>
+        <h6 class="text-sm font-semibold text-black mb-2 mr-4">Enter Aadhaar
+Number</h6>
+    </div>
+    
+       <div class="w-full">
+        <div class="flex items-center w-full">
+        <div class="w-7 h-7 shrink-0 mx-[-1px] bg-indigo-500 flex items-center justify-center rounded-full">
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 fill-white" viewBox="0 0 24 24">
+            <path
+              d="M9.707 19.121a.997.997 0 0 1-1.414 0l-5.646-5.647a1.5 1.5 0 0 1 0-2.121l.707-.707a1.5 1.5 0 0 1 2.121 0L9 14.171l9.525-9.525a1.5 1.5 0 0 1 2.121 0l.707.707a1.5 1.5 0 0 1 0 2.121z"
+              data-original="#000000" />
+          </svg>
+        </div>
+        <div class="w-full h-[3px] bg-indigo-500"></div>
+      </div>
+        <h6 class="text-sm font-semibold text-black mb-2">OTP  Validation</h6>
+      </div>
+         <div class="w-full">
+        <div class="flex items-center w-full">
+        <div class="w-7 h-7 shrink-0 mx-[-1px] bg-indigo-500 flex items-center justify-center rounded-full">
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 fill-white" viewBox="0 0 24 24">
+            <path
+              d="M9.707 19.121a.997.997 0 0 1-1.414 0l-5.646-5.647a1.5 1.5 0 0 1 0-2.121l.707-.707a1.5 1.5 0 0 1 2.121 0L9 14.171l9.525-9.525a1.5 1.5 0 0 1 2.121 0l.707.707a1.5 1.5 0 0 1 0 2.121z"
+              data-original="#000000" />
+          </svg>
+        </div>
+        <div class="w-full h-[3px] bg-indigo-900"></div>
+      </div>
+        <h6 class="text-sm font-semibold text-black mb-2">OTP  Validation</h6>
+      </div>
+    <div class="w-full">
+<div class="flex items-center w-full">
+       <div class="w-7 h-7 shrink-0 mx-[-1px] bg-white border-[4px] border-indigo-500 flex items-center justify-center rounded-full">
+          <span class="w-3 h-3 bg-indigo-500  rounded-full"></span>
+          
+        </div>
+        
+      </div>
+            <h6 class="text-sm font-semibold text-black mb-2 mr-4">Select and Update
+PAN Details</h6>
+    </div>
+      
+    </div> 
+           <div className='pb-10 font-medium text-[20px] text-left w-full'>Your personal data based on Aadhaar e-KYC</div>
             <div className='bg-white '>
                 <div className='w-[100%] flex border-b-4 border-[#ebebea] py-4 px-4'>
                     <div className='w-[50%] flex font-medium text-[22px] items-center'>
@@ -56,7 +111,7 @@ const Step4 = () => {
                     checked={isChecked}
                     onChange={handleCheckboxChange}
                 />
-                <div><span className='ml-[25px] font-normal text-[24px]'>I accept that</span>
+                <div><span className='ml-[25px] font-normal text-[20px]'>I accept that</span>
                 <span className='text-red-500'> *</span></div>
                 
             </div>
@@ -78,11 +133,11 @@ const Step4 = () => {
                 </ul>
             </div>
             <div className="flex justify-between mt-10 w-full">
-                <button className="text-[#1c1b94] border text-[24px] font-medium border-black px-4 py-2 w-[156px] rounded-md">
+                <button className="text-[#1c1b94] border text-[20px] font-medium border-black px-4 py-2 w-[156px] rounded-md">
                     Cancel
                 </button>
                 <button
-                    className={`border font-medium text-[24px] w-[156px]  border-black px-4 py-2 rounded-md ${
+                    className={`border font-medium text-[20px] w-[156px]  border-black px-4 py-2 rounded-md ${
                         isChecked ? "text-[#1c1b94]" : "text-gray-300 border-gray-400 cursor-not-allowed"
                     }`}
                     type="submit"

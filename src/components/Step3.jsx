@@ -147,17 +147,16 @@ Number</h6>
         <h6 class="text-sm font-semibold text-black mb-2">OTP  Validation</h6>
       </div>
          <div class="w-full">
+      
         <div class="flex items-center w-full">
-        <div class="w-7 h-7 shrink-0 mx-[-1px] bg-indigo-500 flex items-center justify-center rounded-full">
-          <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 fill-white" viewBox="0 0 24 24">
-            <path
-              d="M9.707 19.121a.997.997 0 0 1-1.414 0l-5.646-5.647a1.5 1.5 0 0 1 0-2.121l.707-.707a1.5 1.5 0 0 1 2.121 0L9 14.171l9.525-9.525a1.5 1.5 0 0 1 2.121 0l.707.707a1.5 1.5 0 0 1 0 2.121z"
-              data-original="#000000" />
-          </svg>
+          <div
+            class="w-7 h-7 z-50 shrink-0 mx-[-1px] border-4 border-indigo-500 flex items-center justify-center rounded-full">
+            <span class="w-3 h-3 bg-indigo-500 rounded-full"></span>
+          </div>
+          <div class="w-full h-[3px] bg-indigo-500"></div>
         </div>
-        <div class="w-full h-[3px] bg-indigo-500"></div>
-      </div>
-        <h6 class="text-sm font-semibold text-black mb-2">OTP  Verification</h6>
+          <h6 class="text-sm font-semibold text-black mb-2 mr-4">Validate Adhaar 
+Details</h6>
       </div>
     <div class="w-full">
 <div class="flex items-center w-full">
@@ -172,16 +171,16 @@ PAN Details</h6>
     </div>
       
     </div> 
-            <div className='pb-10 font-medium text-[24px] text-left w-full'>OTP Validation</div>
+            <div className='pb-10 font-medium text-[20px] text-left w-full'>OTP Validation</div>
             <div className='bg-white rounded-[30px] p-[20px]'>
                 <div className='flex flex-col font-semibold gap-[10px]'>
                     <div className='flex flex-col gap-4 rounded-lg p-[10px]'>
                         <div className='pb-4'>
-                            <p className='font-medium text-[24px]'>Check your phone</p>
-                            <p className='font-normal text-[24px]'>We have sent a One Time Password (OTP) in a text message (SMS) to your Primary mobile number +91 23********71 and primary email id avinash12345@nergymail.com</p>
+                            <p className='font-medium text-[20px]'>Check your phone</p>
+                            <p className='font-normal text-[20px]'>We have sent a One Time Password (OTP) in a text message (SMS) to your Primary mobile number +91 23********71 and primary email id avinash12345@nergymail.com</p>
                         </div>
                         <div className=''>
-                            <p className='font-normal text-[24px]'>Enter the OTP <span className='text-red-500'>*</span></p>
+                            <p className='font-normal text-[20px]'>Enter the OTP <span className='text-red-500'>*</span></p>
                             <section className="bg-white py-10 dark:bg-dark">
                                 <div className="container">
                                     <form id="otp-form" className="flex gap-2">
@@ -202,11 +201,11 @@ PAN Details</h6>
                                     </form>
                                 </div>
                             </section>
-                            <p className='font-medium text-[24px]'>OTP expires in {minutes}.{seconds} min</p>
+                            <p className='font-medium text-[20px]'>OTP expires in {minutes}.{seconds} min</p>
                         </div>
                         <div className='flex items-center flex-start gap-2'>
                             <button
-                                className={`border font-normal text-[24px] w-40 border-black px-4 py-2 rounded-md ${
+                                className={`border font-normal text-[20px] w-40 border-black px-4 py-2 rounded-md ${
                                     isTimerRunning ? "text-gray-300 border-gray-400" : "text-[#1c1b94]"
                                 }`}
                                 onClick={resetOtp}
@@ -228,11 +227,11 @@ PAN Details</h6>
                 <span className='ml-[25px] font-normal text-[22px]'>I agree to validate my Aadhaar details with UIDAI. After successful validation of OTP entered by you, the request for e-KYC Aadhaar data will be fetched from UIDAI</span>
             </div>
             <div className="flex justify-between mt-10 w-full">
-                <button className="text-[#1c1b94] border font-medium text-[24px] border-black px-4 py-2 w-[156px] rounded-md">
+                <button className="text-[#1c1b94] border font-medium text-[20px] border-black px-4 py-2 w-[156px] rounded-md">
                     Cancel
                 </button>
                 <button
-                    className={`border font-medium text-[24px] w-[156px] border-black px-4 py-2 rounded-md ${
+                    className={`border font-medium text-[20px] w-[156px] border-black px-4 py-2 rounded-md ${
                         isChecked && isOtpComplete ? "text-[#1c1b94]" : "text-gray-300 border-gray-400 cursor-not-allowed"
                     }`}
                     type="submit"
