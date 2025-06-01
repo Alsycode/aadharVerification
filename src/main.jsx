@@ -4,13 +4,12 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
-import Homepage from './pages/Homepage';
+
 
 import "../src/styles/global.css"
-import OtpVerification from './pages/OtpVerification';
+
 import UserRoot from './root/userRoot';
-import OtpValidation from './pages/OtpValidation';
-import UpdatePan from './pages/UpdatePan';
+
 import Step1 from './components/Step1';
 import Step2 from './components/Step2';
 import Step3 from './components/Step3';
@@ -38,6 +37,7 @@ const router = createBrowserRouter([
         path: "/updatePan",
         element: <Step4 />,
       },
+
    
     ],
   },

@@ -4,7 +4,8 @@ import Step1 from '../components/Step1'
 import Step2 from '../components/Step2'
 import Step3 from '../components/Step3'
 import Step4 from '../components/Step4'
-
+import { Slide, ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import Stepper from '../components/stepper/Stepper'
 // import { useContext } from 'react'
  import FormContext from "../context/context"
@@ -36,7 +37,7 @@ const [formData,setFormData] = useState({
   };
   return (
     <FormContext.Provider value={{formData, setFormData,steps, currentStep, complete, nextStep, prevStep}}>
-          <div className='flex flex-col bg-[#efeeef] justify-center items-center h-screen px-[80px] py-[60px]'>
+          <div className='flex flex-col bg-[#efeeef] justify-center items-center min-h-screen  lg:px-[80px]  md:px-[40px] px-[10px] py-[60px]'>
          
 {/* <Stepper/> */}
        
@@ -44,6 +45,7 @@ const [formData,setFormData] = useState({
    
   
     </div>
+    <ToastContainer/>
     </FormContext.Provider>
      
   )
