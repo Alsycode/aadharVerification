@@ -2,7 +2,7 @@ import React from 'react';
 import { useState, useContext } from 'react';
 import FormContext from '../context/context';
 import { useNavigate } from 'react-router-dom';
-
+import { toast } from 'react-toastify';
 const Step4 = () => {
     const [isChecked, setIsChecked] = useState(false);
     const handleCheckboxChange = (event) => {
@@ -12,7 +12,10 @@ const Step4 = () => {
     console.log("checkLog", isChecked);
     console.log("formdata", formData);
     const navigate = useNavigate();
-
+const handleSubmit = () => {
+    toast.success("Form Submitted Succesfully")
+    navigate("/complete")
+}
     return (
         <div className="flex flex-col items-center min-h-screen mx-auto px-4 sm:px-6 lg:px-8 py-6 w-full max-w-screen-xl font-poppins">
             <div className="flex flex-col sm:flex-row items-center justify-between w-full mb-6 sm:mb-8 gap-4 sm:gap-0">
@@ -132,7 +135,7 @@ const Step4 = () => {
                     }`}
                     type="submit"
                     disabled={!isChecked}
-                    onClick={() => navigate('/updatePan')}
+                    onClick={handleSubmit}
                 >
                     Submit
                 </button>

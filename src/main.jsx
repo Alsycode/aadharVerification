@@ -5,7 +5,7 @@ import {
   RouterProvider,
 } from "react-router-dom";
 
-
+import FormComplete from './components/FormComplete';
 import "../src/styles/global.css"
 
 import UserRoot from './root/userRoot';
@@ -36,6 +36,10 @@ const router = createBrowserRouter([
           {
         path: "/updatePan",
         element: <Step4 />,
+      },
+          {
+        path: "/complete",
+        element: <FormComplete />,
       },
 
    

@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import { useState, useContext } from "react";
 import { useNavigate } from "react-router-dom";
 import FormContext from "../context/context";
-
+import { toast } from 'react-toastify';
 const Step1 = () => {
     const navigate = useNavigate();
     const { step, formData, setFormData } = useContext(FormContext);
@@ -41,6 +41,7 @@ const Step1 = () => {
 
     const handleNext = () => {
         const proceed = isChecked && next;
+        toast.success("Adhar number submitted")
         console.log("proceed", proceed);
         if (proceed) {
             navigate("/otpVerification");

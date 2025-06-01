@@ -9,7 +9,7 @@ import 'react-toastify/dist/ReactToastify.css';
 import Stepper from '../components/stepper/Stepper'
 // import { useContext } from 'react'
  import FormContext from "../context/context"
-//  import StepperProvider from "../context/stepperContext"
+//  import StepperProvider from "../context/stepperContexst"
 const userRoot = () => {
     // const { updateFormData, step } = useContext(FormContext);
     // console.log("step",step)

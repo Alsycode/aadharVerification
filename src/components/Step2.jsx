@@ -1,7 +1,7 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useState } from 'react';
-
+import { toast } from 'react-toastify';
 const Step2 = () => {
     const navigate = useNavigate();
     const [isChecked, setIsChecked] = useState(false);
@@ -12,10 +12,11 @@ const Step2 = () => {
 
     const handleContinue = () => {
         if (isChecked) {
+            toast.success("Consent submitted")
             navigate('/otpValidation');
         }
     };
-
+s
     return (
         <div className="flex flex-col items-center  mx-auto px-4 sm:px-6 lg:px-4 py-6 w-full max-w-screen-xl">
             <div className="flex flex-col sm:flex-row items-center justify-between w-full mb-6 sm:mb-8 gap-4 sm:gap-0">
